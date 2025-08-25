@@ -82,6 +82,7 @@ const OnboardingModal: React.FC<OnboardingModalProps> = ({
     'University of Leeds',
     'University of Sheffield',
     'University of Nottingham',
+  'Nottingham Trent University',
     'University of Southampton',
     'University of York',
     'Durham University',

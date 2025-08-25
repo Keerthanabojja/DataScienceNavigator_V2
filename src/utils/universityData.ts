@@ -42,6 +42,7 @@ const UK_UNIVERSITIES = [
   'University of Leeds',
   'University of Sheffield',
   'University of Nottingham',
+  'Nottingham Trent University',
   'University of Southampton',
   'University of York',
   'Durham University',
@@ -203,7 +204,7 @@ const ALUMNI_STORIES = {
 
 const getUniversityTier = (university: string): 'tier1' | 'tier2' | 'tier3' => {
   const tier1Unis = ['University of Cambridge', 'University of Oxford', 'Imperial College London', 'University College London'];
-  const tier2Unis = ['University of Edinburgh', 'University of Manchester', 'University of Warwick', 'King\'s College London', 'University of Bristol', 'University of Glasgow'];
+  const tier2Unis = ['University of Edinburgh', 'University of Manchester', 'University of Warwick', 'King\'s College London', 'University of Bristol', 'University of Glasgow', 'Nottingham Trent University'];
   
   if (tier1Unis.includes(university)) return 'tier1';
   if (tier2Unis.includes(university)) return 'tier2';
